@@ -1,9 +1,9 @@
-package com.example.vehicle.controller;
+package com.grocerymanagement.controller;
 
-import com.example.vehicle.model.Item;
-import com.example.vehicle.model.OrderRequestDto;
-import com.example.vehicle.service.GroceryService;
-import com.example.vehicle.service.UserService;
+import com.grocerymanagement.model.Item;
+import com.grocerymanagement.model.OrderRequestDto;
+import com.grocerymanagement.service.GroceryService;
+import com.grocerymanagement.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

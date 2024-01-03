@@ -1,10 +1,10 @@
-package com.example.vehicle.service;
+package com.grocerymanagement.service;
 
-import com.example.vehicle.dao.OrderDao;
-import com.example.vehicle.exception.InsufficientInventory;
-import com.example.vehicle.model.Item;
-import com.example.vehicle.model.Order;
-import com.example.vehicle.model.OrderRequestDto;
+import com.grocerymanagement.dao.OrderDao;
+import com.grocerymanagement.exception.InsufficientInventory;
+import com.grocerymanagement.model.Item;
+import com.grocerymanagement.model.Order;
+import com.grocerymanagement.model.OrderRequestDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;

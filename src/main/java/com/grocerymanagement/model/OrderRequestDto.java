@@ -1,4 +1,4 @@
-package com.example.vehicle.model;
+package com.grocerymanagement.model;
 
 import lombok.Data;
 

@@ -1,8 +1,8 @@
-package com.example.vehicle.service;
+package com.grocerymanagement.service;
 
-import com.example.vehicle.dao.ItemDao;
-import com.example.vehicle.model.GroceryRequestDto;
-import com.example.vehicle.model.Item;
+import com.grocerymanagement.dao.ItemDao;
+import com.grocerymanagement.model.GroceryRequestDto;
+import com.grocerymanagement.model.Item;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.json.JSONObject;
